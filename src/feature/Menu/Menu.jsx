@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Menu.css"
 
 
 const Menu = () => {
@@ -9,7 +10,7 @@ const Menu = () => {
     }
 
     return (
-        <div onClick={openMenu} style={{backgroundColor: "black"}}>
+        <div class="menu" onClick={openMenu} style={{backgroundColor: "black"}}>
             {controllMenu ? (
                 <h1 backgroundColor="red">TRUE</h1>
             ) : (
